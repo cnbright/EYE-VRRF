@@ -2,6 +2,8 @@
 
 [中文说明](./README.md)
 
+![EYE-200 VRRF software screenshot](./docs/assets/software-screenshot.png)
+
 This is a .NET 8 WPF GUI application for EYE-200 probe VRRF measurement. It controls the probe over a serial port, captures luminance waveforms, applies a fixed 901-tap causal FIR model to calculate `Weighted Data`, then calculates VRRF Trend with a 0.150 s trailing window.
 
 ## Features
