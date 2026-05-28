@@ -2,6 +2,8 @@
 
 [English README](./README_EN.md)
 
+![EYE-200 VRRF software screenshot](./docs/assets/software-screenshot.png)
+
 这是一个基于 .NET 8 WPF 的 EYE-200 精测探头 VRRF 测量程序。程序通过串口控制探头采集亮度波形，使用固化的 901 点 causal FIR 模型计算 `Weighted Data`，再按 0.150 s 尾随窗口计算 VRRF Trend，并提供CA410风格的实时图表、结果表格和 CSV 导出。
 
 ## 功能
